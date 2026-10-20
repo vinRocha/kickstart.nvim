@@ -89,6 +89,7 @@ P.S. You can delete this when you're done too. It's your config now! :)
 -- Core Neovim settings, leaders, options
 -- ============================================================
 do
+  require 'custom.my_scripts'
   -- Enable faster startup by caching compiled Lua modules
   vim.loader.enable()
 
