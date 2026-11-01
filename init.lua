@@ -89,7 +89,6 @@ P.S. You can delete this when you're done too. It's your config now! :)
 -- Core Neovim settings, leaders, options
 -- ============================================================
 do
-  require 'custom.my_scripts'
   -- Enable faster startup by caching compiled Lua modules
   vim.loader.enable()
 
@@ -1026,6 +1025,7 @@ do
   -- For independent modules, uncomment the convenience loader:
   -- require 'custom.plugins'
   --
+  require 'custom.my_scripts'
   -- `custom.plugins` automatically loads files from that directory, but their
   -- order is unspecified. If plugins depend on each other, keep them in the same
   -- file and put their `vim.pack.add()` and `setup()` calls in the required order.
